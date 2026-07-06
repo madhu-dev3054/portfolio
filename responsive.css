@@ -71,6 +71,12 @@
 
 @media (max-width:768px){
 
+         .navbar{
+
+        padding:80px 0;
+
+    }
+
     .hero{
 
         padding:120px 0 60px;
@@ -218,6 +224,170 @@
     }
 
 }
+
+
+/*==========================
+       NORMAL  MOBILE
+==========================*/
+
+@media (max-width:768px){
+
+        .navbar{
+
+        padding:80px 0;
+
+    }
+
+
+    .hero{
+
+        padding:120px 0 60px;
+
+        text-align:center;
+
+    }
+
+    .hero-title{
+
+        font-size:2.6rem;
+
+    }
+
+    .hero-role{
+
+        font-size:1.5rem;
+
+    }
+
+    .hero-description{
+
+        font-size:.95rem;
+
+        margin:0 auto 30px;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+    }
+
+    .hero-buttons .btn{
+
+        width:100%;
+
+    }
+
+    .hero-stats{
+
+        justify-content:center;
+
+        gap:15px;
+
+    }
+
+    .hero-image-wrapper{
+
+        width:360px;
+
+        height:360px;
+
+        margin-bottom:70px;
+
+    }
+
+    .hero-image{
+
+        width:210px;
+
+        height:210px;
+
+    }
+
+    .hero-image-wrapper::before{
+
+        width:300px;
+
+        height:300px;
+
+    }
+
+    .tech-badge{
+
+        width:72px;
+
+        height:68px;
+
+        font-size:11px;
+
+        gap:4px;
+
+    }
+
+    .tech-badge i{
+
+        font-size:20px;
+
+    }
+
+    /* Badge Positions */
+
+    .badge-top{
+
+        top:14px;
+
+        left:50%;
+
+        transform:translateX(-50%);
+
+    }
+
+    .badge-left{
+
+        top:96px;
+
+        left:20px;
+
+    }
+
+    .badge-left-middle{
+
+        bottom:96px;
+
+        left:20px;
+
+    }
+
+    .badge-right{
+
+        top:96px;
+
+        right:20px;
+
+    }
+
+    .badge-right-bottom{
+
+        bottom:96px;
+
+        right:20px;
+
+    }
+
+    .badge-bottom-left{
+
+        left:50%;
+
+        bottom:14px;
+
+        transform:translateX(-50%);
+
+    }
+
+}
+
+
 
 
 /*==========================
