@@ -71,12 +71,6 @@
 
 @media (max-width:768px){
 
-   .navbar{
-
-       margin-right: 80px;
-
-    }
-
     .hero{
 
         padding:120px 0 60px;
@@ -230,14 +224,7 @@
        NORMAL  MOBILE
 ==========================*/
 
-@media (max-width:768px){
-
-   .navbar{
-
-       margin-right: 80px;
-
-    }
-
+@media (max-width:576px){
 
     .hero{
 
