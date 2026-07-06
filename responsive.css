@@ -1,0 +1,613 @@
+
+
+/*==========================
+        TABLET
+==========================*/
+
+@media (max-width:991px){
+
+    .hero{
+
+        padding:140px 0 80px;
+
+        text-align:center;
+
+    }
+
+    .hero-title{
+
+        font-size:3.3rem;
+
+    }
+
+    .hero-role{
+
+        font-size:1.8rem;
+
+    }
+
+    .hero-description{
+
+        margin:0 auto 35px;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+    }
+
+    .hero-stats{
+
+        justify-content:center;
+
+        margin-bottom:50px;
+
+    }
+
+    .hero-image-wrapper{
+
+        width:500px;
+
+        height:500px;
+
+    }
+
+    .hero-image{
+
+        width:280px;
+
+        height:280px;
+
+    }
+
+}
+
+
+/*==========================
+        MOBILE
+==========================*/
+
+@media (max-width:768px){
+
+    .hero{
+
+        padding:120px 0 60px;
+
+        text-align:center;
+
+    }
+
+    .hero-title{
+
+        font-size:2.6rem;
+
+    }
+
+    .hero-role{
+
+        font-size:1.5rem;
+
+    }
+
+    .hero-description{
+
+        font-size:.95rem;
+
+        margin:0 auto 30px;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+    }
+
+    .hero-buttons .btn{
+
+        width:100%;
+
+    }
+
+    .hero-stats{
+
+        justify-content:center;
+
+        gap:15px;
+
+    }
+
+    .hero-image-wrapper{
+
+        width:360px;
+
+        height:360px;
+
+        margin-bottom:70px;
+
+    }
+
+    .hero-image{
+
+        width:210px;
+
+        height:210px;
+
+    }
+
+    .hero-image-wrapper::before{
+
+        width:300px;
+
+        height:300px;
+
+    }
+
+    .tech-badge{
+
+        width:72px;
+
+        height:68px;
+
+        font-size:11px;
+
+        gap:4px;
+
+    }
+
+    .tech-badge i{
+
+        font-size:20px;
+
+    }
+
+    /* Badge Positions */
+
+    .badge-top{
+
+        top:14px;
+
+        left:50%;
+
+        transform:translateX(-50%);
+
+    }
+
+    .badge-left{
+
+        top:96px;
+
+        left:20px;
+
+    }
+
+    .badge-left-middle{
+
+        bottom:96px;
+
+        left:20px;
+
+    }
+
+    .badge-right{
+
+        top:96px;
+
+        right:20px;
+
+    }
+
+    .badge-right-bottom{
+
+        bottom:96px;
+
+        right:20px;
+
+    }
+
+    .badge-bottom-left{
+
+        left:50%;
+
+        bottom:14px;
+
+        transform:translateX(-50%);
+
+    }
+
+}
+
+
+/*==========================
+      SMALL MOBILE
+==========================*/
+
+@media (max-width:480px){
+
+    .hero-title{
+
+        font-size:2.2rem;
+
+    }
+
+    .hero-role{
+
+        font-size:1.3rem;
+
+    }
+
+    .hero-image-wrapper{
+
+        width:300px;
+
+        height:300px;
+
+    }
+
+    .hero-image{
+
+        width:180px;
+
+        height:180px;
+
+    }
+
+    .hero-image-wrapper::before{
+
+        width:260px;
+
+        height:260px;
+
+    }
+
+    .tech-badge{
+
+        width:65px;
+
+        height:62px;
+
+        font-size:10px;
+
+    }
+
+    .tech-badge i{
+
+        font-size:16px;
+
+    }
+
+    .badge-top{
+
+        top:-12px;
+
+    }
+
+    .badge-left{
+
+        top:76px;
+
+        left:-12px;
+
+    }
+
+    .badge-left-middle{
+
+        bottom:38px;
+
+        left:2px;
+
+    }
+
+    .badge-right{
+
+        top:76px;
+
+        right:-12px;
+
+    }
+
+    .badge-right-bottom{
+
+        bottom:42px;
+
+        right:2px;
+
+    }
+
+    .badge-bottom-left{
+
+        bottom:-12px;
+
+    }
+
+}
+
+/*======================================================
+                FULL WEBSITE RESPONSIVE
+======================================================*/
+
+@media (max-width:991px){
+
+    .navbar .container{
+
+        padding:0 15px;
+
+    }
+
+    .about{
+
+        padding:90px 0;
+
+    }
+
+    .about-img{
+
+        width:280px;
+
+        height:280px;
+
+    }
+
+    .section-title{
+
+        font-size:2.3rem;
+
+        margin-bottom:35px;
+
+    }
+
+    .skills,
+    .projects,
+    .journey,
+    .contact{
+
+        padding:80px 0;
+
+    }
+
+    .skill-card{
+
+        padding:28px 16px;
+
+    }
+
+    .project-content p{
+
+        min-height:auto;
+
+    }
+
+    .timeline{
+
+        padding-left:30px;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .about{
+
+        padding:80px 0;
+
+    }
+
+    .footer{
+
+        padding:60px 0 30px;
+
+    }
+
+    .footer-logo{
+
+        font-size:1.7rem;
+
+        margin-bottom:14px;
+
+    }
+
+    .footer-text{
+
+        max-width:100%;
+
+        margin-bottom:20px;
+
+    }
+
+    .footer-title{
+
+        margin-bottom:14px;
+
+    }
+
+    .footer-links li{
+
+        margin-bottom:10px;
+
+    }
+
+    .footer-social{
+
+        gap:12px;
+
+        margin-bottom:10px;
+
+    }
+
+    .footer-social a{
+
+        width:44px;
+
+        height:44px;
+
+        font-size:18px;
+
+    }
+
+    .footer-line{
+
+        margin:30px 0 20px;
+
+    }
+
+    .footer-copy{
+
+        font-size:.92rem;
+
+        line-height:1.6;
+
+    }
+
+    .about-img{
+
+        width:250px;
+
+        height:250px;
+
+    }
+
+    .section-title{
+
+        font-size:2.1rem;
+
+        margin-bottom:30px;
+
+    }
+
+    .skills,
+    .projects,
+    .journey,
+    .contact{
+
+        padding:70px 0;
+
+    }
+
+    .skill-card{
+
+        margin-bottom:20px;
+
+    }
+
+    .project-btn{
+
+        flex-direction:column;
+
+    }
+
+    .project-btn .btn{
+
+        width:100%;
+
+    }
+
+    .timeline-content{
+
+        padding:24px;
+
+    }
+
+    .contact-info{
+
+        padding:24px;
+
+    }
+
+    .contact-item{
+
+        gap:14px;
+
+    }
+
+}
+
+@media (max-width:480px){
+
+    .footer{
+
+        padding:55px 0 28px;
+
+    }
+
+    .footer-logo{
+
+        font-size:1.5rem;
+
+    }
+
+    .footer-title{
+
+        font-size:1.1rem;
+
+    }
+
+    .footer-social a{
+
+        width:40px;
+
+        height:40px;
+
+        font-size:16px;
+
+    }
+
+    .section-title{
+
+        font-size:1.8rem;
+
+    }
+
+    .about-img{
+
+        width:220px;
+
+        height:220px;
+
+    }
+
+    .skill-card{
+
+        padding:22px 14px;
+
+    }
+
+    .project-content{
+
+        padding:20px;
+
+    }
+
+    .timeline-content{
+
+        padding:20px;
+
+    }
+
+    .contact-info{
+
+        padding:20px;
+
+    }
+
+    .contact-item{
+
+        flex-direction:column;
+
+        gap:10px;
+
+    }
+
+    .social-links a{
+
+        width:44px;
+
+        height:44px;
+
+        margin-right:8px;
+
+    }
+
+}
